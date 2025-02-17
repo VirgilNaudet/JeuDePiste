@@ -50,7 +50,7 @@ const FrenchQuiz = () => {
     },
   ];
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (userAnswer.toLowerCase() === questions[currentQuestion].answer.toLowerCase()) {
@@ -75,8 +75,8 @@ const FrenchQuiz = () => {
     boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
   };
 
-  const bottomImageStyle = {
-    position: "fixed",
+  const bottomImageStyle: React.CSSProperties = {
+    position: "fixed" as const,
     bottom: "20px",
     right: "20px",
     width: "180px",
