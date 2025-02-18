@@ -118,7 +118,7 @@ const FrenchQuiz = () => {
               fontWeight: "bold",
               marginBottom: "24px"
             }}>
-              Les réponses sont toutes présentes au 17ème étage ou l'ont été auparavant.
+              Les réponses sont toutes présentes au 16/17ème étage ou l'ont été auparavant.
             </p>
           </div>
           <h2
